@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+h1 {
+ margin: 1rem;
+ text-align: center;
+ font-family: 'Montserrat', sans-serif;
+ color: #333;
+}
+
+form {
+width: 80%;
+max-width: 600px;
+margin: 0 auto;
+padding: 20px;
+border: 2px solid #ccc;
+background-color: #f9f9f9;
+display: grid;
+gap: 15px;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    background-color: #fafafa;
+}
+
+legend {
+    padding: 0.5rem;
+    color: #333;
+    font-size: 1.3em;
+    background-color: #f0f0f0;
+}
+
+label, input, button, select, textarea {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    color: #444;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    font-size: 18px;
+    padding: 12px;
+}
+
+input[type="checkbox"] {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #ccc;
+}
+
+.form-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.column1 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.column2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
