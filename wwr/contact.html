@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Information</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles-contact.css">
+</head>
+<body>
+  <header>
+    <h1>Whitewater Rafting Information</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="trips.html">Trips</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Contact Us</h2>
+      <p>If you have any questions or would like more information about our rafting adventures, please feel free to reach out to us. We are here to help and ensure you have the best possible experience on the water!</p>
+
+      <h3>Company Information</h3>
+      <ul>
+        <li><strong>Address:</strong> Rafting Adventures Inc., 123 River Road, Whitewater, CO 81234, United States</li>
+        <li><strong>Phone Numbers:</strong> Toll-Free: 1-800-RAFTING | Local: (555) 123-4567</li>
+        <li><strong>Email:</strong> <a href="mailto:info@raftingadventures.com">info@raftingadventures.com</a></li>
+      </ul>
+
+      <h3>Our Location</h3>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d25810.282245459566!2d-114.80321480994284!3d36.03774293415921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1734031042418!5m2!1sen!2sus" 
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section>
+      <h3>Meet Our Team</h3>
+      <div class="employee-profiles">
+        <figure>
+          <img src="images/happy-girl.jpg" alt="Employee 1" class="employee-img">
+          <figcaption>John Doe - Rafting Guide</figcaption>
+        </figure>
+        <figure>
+          <img src="images/happy-guy.jpg" alt="Employee 2" class="employee-img">
+          <figcaption>Jane Smith - Safety Coordinator</figcaption>
+        </figure>
+        <figure>
+          <img src="images/happy-team.jpg" alt="Employee 3" class="employee-img">
+          <figcaption>Michael Johnson - Reservations Manager</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section>
+      <h3>Contact Form</h3>
+      <form action="" method="POST" class="contact-form">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <fieldset>
+          <legend>Purpose of Message:</legend>
+          <label>
+            <input type="radio" name="purpose" value="General Inquiry" required> General Inquiry
+          </label>
+          <label>
+            <input type="radio" name="purpose" value="Reservation Question"> Reservation Question
+          </label>
+          <label>
+            <input type="radio" name="purpose" value="Website Suggestion"> Website Suggestion
+          </label>
+        </fieldset>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <label for="subscribe">
+          <input type="checkbox" id="subscribe" name="subscribe"> Please subscribe me to the monthly newsletter
+        </label>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <div class="hero">
+      <h2>Experience the Thrill of White Water Rafting</h2>
+      <p>Join us on an unforgettable adventure through the wild rapids</p>
+    </div>
+
+    <article>
+      <img src="images/happy-client.jpg" alt="Happy Client" class="happy-client-image">
+      <p>Our mission is to provide thrilling and safe white water rafting adventures that inspire excitement and camaraderie. We are committed to delivering unforgettable experiences in the wildest rivers, ensuring safety, fun, and memories for all our adventurers.</p>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 White Water Rafting Ty Pendleton</p>
+    <nav class="sociallinks">
+      <a href="https://www.facebook.com" target="_blank">
+        <img src="images/Facebook_icon.jpg" alt="Facebook">
+      </a>
+      <a href="https://www.twitter.com" target="_blank">
+        <img src="images/twitter-icon.png" alt="Twitter">
+      </a>
+      <a href="https://www.instagram.com" target="_blank">
+        <img src="images/instagram-icon.jpg" alt="Instagram">
+      </a>
+    </nav>
+
+    <a href="https://app.moqups.com/unsaved/a5ac9cf4/edit/page/ad64222d5" target="_blank">
+      <img src="images/Contact-Us.png" alt="Contact Us Wireframe">
+    </a>
+  </footer>
+
+  <p>White water rafting is an outdoor adventure sport where participants navigate through fast-flowing rivers or streams in an inflatable raft. The river's turbulent waters create rapids, which range in intensity from mild to wild, offering an exciting challenge. Rafting typically involves teamwork, with paddlers working together to steer the raft, avoid obstacles, and navigate through rough water. It’s a thrilling activity that combines adventure, nature, and the adrenaline rush of tackling rapids, making it a popular recreational sport for thrill-seekers.</p>
+ 
+  <img src="images/whitewater-rafting-logo.jpg" alt="Whitewater Rafting">
+</body>
+</html>
