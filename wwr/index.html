@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whitewater Rafting</title>
+    <link rel="stylesheet" href="rafting.css">
+</head>
+<body>
+  <header>
+    <h1>Whitewater Rafting</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="trips.html">Trips</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero-adventure">
+    <img src="images/whitewater-rafting-logo.jpg" alt="Whitewater Rafting Adventure" class="hero-image">
+    <div class="hero-content">
+      <h1>Adventure Awaits!</h1>
+      <p>Join us for an unforgettable whitewater rafting experience!</p>
+    </div>
+  </section>
+
+  <section class="newsletter">
+    <h2>Stay Updated!</h2>
+    <p>Sign up for our newsletter to receive the latest rafting news and offers.</p>
+    <form action="submit_newsletter.php" method="POST">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <section class="cta">
+    <h2>Ready for Your Adventure?</h2>
+    <p>Explore our rafting trips and find your perfect adventure today!</p>
+    <a href="trips.html" class="cta-button">Explore Our Trips</a>
+  </section>
+
+  <section class="grid-layout">
+    <div class="grid-item">
+      <img src="images/rafting-trip.jpg" alt="Rafting Trip" class="grid-image">
+      <h3>Our Rafting Trips</h3>
+      <p>From beginner to expert, we offer trips for all levels of thrill-seekers!</p>
+    </div>
+    <div class="grid-item">
+      <img src="images/rafting-guides.jpg" alt="Rafting Guide" class="grid-image">
+      <h3>Expert Guides</h3>
+      <p>Our experienced guides ensure safety and fun throughout your rafting adventure.</p>
+    </div>
+  </section>
+
+</body>
+</html>
